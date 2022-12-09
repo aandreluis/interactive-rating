@@ -26,13 +26,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 📸 Screenshots
 
 <p align="center">
-  <img alt="interactive-rating-home" src=".github/interactive-rating-01.png" width="80%">
-  <img alt="interactive-rating-thank" src=".github/interactive-rating-02.png" width="80%">
+  <img alt="interactive-rating-home" src=".github/interactive-rating-01.png" width="50%">
+  <img alt="interactive-rating-thank" src=".github/interactive-rating-02.png" width="50%">
   </p>
 
 ## 🌎 Links
 
-- Solution: []()
-- Live Site: []()
+- Solution: [https://www.frontendmentor.io/solutions/interactive-rating-component-r2Y_YOvVGa](https://www.frontendmentor.io/solutions/interactive-rating-component-r2Y_YOvVGa)
+- Live Site: [https://interactive-rating-aandreluis.netlify.app/](https://interactive-rating-aandreluis.netlify.app/)
 
 ---
