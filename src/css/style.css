@@ -5,11 +5,11 @@
   --orange: #fb7413;
 
   /* Neutral */
-  --white: #ffffff;
+  --dark-blue: #252d37;
   --light-grey: #959eac;
   --medium-grey: #7c8798;
-  --dark-blue: #252d37;
   --very-dark-blue: #121417;
+  --white: #ffffff;
 }
 
 * {
@@ -76,7 +76,14 @@ body p {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding: 16px 0 0;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  opacity: 0;
 }
 
 .rate-inputs li {
@@ -148,8 +155,8 @@ body p {
   align-items: center;
   animation: translateTop 1s ease-in-out, fadein 1.5s ease-in;
   background-color: var(--orange);
-  border: none;
   border-radius: 25px;
+  border: none;
   color: var(--white);
   cursor: pointer;
   display: flex;
@@ -177,7 +184,7 @@ body p {
   border-radius: 25px;
   display: none;
   justify-content: center;
-  min-height: 420px;
+  min-height: 424px;
   padding: 32px;
   text-align: center;
   width: 400px;
@@ -229,6 +236,23 @@ body p {
 
 .attribution a {
   color: var(--orange);
+}
+
+@media (width < 400px) {
+
+  #card-rate,
+  #card-thank {
+    max-width: 90%;
+  }
+
+  .rate-inputs li label {
+    font-size: 14px;
+    padding: 11px 15px;
+  }
+
+  .rate-inputs li:first-child label {
+    padding: 11px 17px;
+  }
 }
 
 @keyframes fadein {
@@ -288,22 +312,5 @@ body p {
 
   to {
     transform: translateY(0);
-  }
-}
-
-@media (width < 400px) {
-
-  #card-rate,
-  #card-thank {
-    max-width: 90%;
-  }
-
-  .rate-inputs li label {
-    font-size: 14px;
-    padding: 11px 15px;
-  }
-
-  .rate-inputs li:first-child label {
-    padding: 11px 17px;
   }
 }
